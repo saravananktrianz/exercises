@@ -14,6 +14,8 @@ public class Exercise8 {
 		
 		String[] results = str.split("(?<=\\G.{" + n + "})");
 		System.out.println(results);
+
+		int size = results.length;
 	}
 
 }
